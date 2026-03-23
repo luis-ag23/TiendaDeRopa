@@ -4,73 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StyleHub</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    <div class="Home-hero">
-        <img src="/ProyectoTecweb2/TiendaDeRopa/src/public/Hero.jpg">
-        <h1>Coleccion de Primavera</h1>
-        <h3> Descubre las nuevas tendencias</h3>
-        <button>></button>
-        <button>Comprar ahora</button>
-        <button>></button>
-    </div>
-     
-    <div class="bienvenida">
-        <h2>BIENVENIDO A STYLEHUB</h2>
-        <p>Tu destino de moda donde encontrarás las últimas tendencias en ropa y accesorios. Desde elegantes piezas de alta costura hasta casual urbano, tenemos todo lo que necesitas para expresar tu estilo único. Comprometidos con la calidad, el diseño y la satisfacción del cliente.</p>
-        <p>+10,000 clientes satisfechos</p>
-    </div>
-
-    <section class="caracteristicas">
-<div class="contenedores">
-<div class="EnvioGratis">
-    <h4>Envio Gratis</h4>
-    <p>En compras superiores a $50</p>
-</div>
-<div class="CalidadGarantizada">
-    <h4>Calidad Garantizada</h4>
-    <p>Productos de la mejor calidad</p>
-</div>
-
-<div class="Soporte24/7">
-    <h4>Soporte 24/7</h4>
-    <p>Atención al personalizada</p>
-</div>
-
-</div>
-</section>
-
-<section class="ExplorarPorCategoria">
-    <h2>Explorar por categoría</h2>
-    <div class="categorias">
-        <div class="Mujeres">
-            <h4>Mujeres</h4>
-            <p>150+ productos</p>
-        </div>
-
-        
-        <div class="Hombres">
-            <h4>Hombres</h4>
-            <p>150+ productos</p>
-        </div>
-        
-        <div class="Casual">
-            <h4>Casual</h4>
-            <p>150+ productos</p>
-        </div>
-        
-        <div class="Accesorios">
-            <h4>Accesorios</h4>
-            <p>150+ productos</p>
-        </div>
-    </div>
-
-</section>
+    <header class="header">
+  <div class="header__container">
     
+    <div class="header__brand">
+      <img src="img/Link.png" alt="StyleHub">
+      </div>
+        <button class="header__menu" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+       </div>
+    </header>
+    <section class="hero">
+      <img src="img/Image (Elegancia Urbana) 1.png" alt="Elegancia Urbana">
+      <div class="hero__content">
+          <h1>Elegancia Urbana</h1>
+          <p>Para cada ocasión especial</p>
+          <button>Ver Colección</button>
+      </div>
+      <button class="hero__nav hero__nav--left">&#10094;</button>
+      <button class="hero__nav hero__nav--right">&#10095;</button>
+    </section>
+    <section class="info">
+       <div class="info__container">
+       <h2 class="info__title">Bienvenido a StyleHub</h2>
+       <p class="info__text">
+        Tu destino de moda donde encontrarás las últimas tendencias en ropa y accesorios.
+        Desde elegantes piezas de alta costura hasta casual urbano, tenemos todo lo que necesitas
+        para expresar tu estilo único. Comprometidos con la calidad, el diseño y la satisfacción del cliente.
+        </p>
+      <div class="info__rating">
+      ⭐ <span>+10,000 clientes satisfechos</span>
+      </div>
+    </div>
+    </section>
+
+   <section class="why">
+   <div class="why__container">
+    <h2 class="why__title">¿Por qué elegir StyleHub?</h2>
+
+    <div class="why__list">
+      <article class="why-card">
+        <div class="why-card__image">
+          <img src="img/Container (1).png" alt="Envío gratis">
+        </div>
+
+        <div class="why-card__content">
+          <div class="why-card__icon">
+            <img src="img/Container (4).png" alt="">
+          </div>
+          <h3 class="why-card__title">Envío Gratis</h3>
+          <p class="why-card__text">En compras superiores a $50</p>
+        </div>
+      </article>
+
+      <article class="why-card">
+        <div class="why-card__image">
+          <img src="img/Container (2).png" alt="Calidad garantizada">
+        </div>
+
+        <div class="why-card__content">
+          <div class="why-card__icon">
+            <img src="img/Container (5).png" alt="">
+          </div>
+          <h3 class="why-card__title">Calidad Garantizada</h3>
+          <p class="why-card__text">Productos de la mejor calidad</p>
+        </div>
+      </article>
+
+      <article class="why-card">
+        <div class="why-card__image">
+          <img src="img/Container (3).png" alt="Soporte 24/7">
+        </div>
+
+        <div class="why-card__content">
+          <div class="why-card__icon">
+            <img src="img/Container (6).png" alt="">
+          </div>
+          <h3 class="why-card__title">Soporte 24/7</h3>
+          <p class="why-card__text">Atención personalizada siempre</p>
+        </div>
+      </article>
+    </div>
+    </div>
+    </section>
+    <section class="categories">
+  <div class="categories__container">
+    <h2 class="categories__title">Explora por Categoría</h2>
+
+    <div class="categories__list">
+      <article class="category-card">
+        <img src="img/Link (6).png" alt="Categoría Mujer">
+        <div class="category-card__overlay">
+          <h3 class="category-card__title">Mujer</h3>
+          <p class="category-card__text">150+ productos</p>
+        </div>
+      </article>
+
+      <article class="category-card">
+        <img src="img/Link (3).png" alt="Categoría Hombre">
+        <div class="category-card__overlay">
+          <h3 class="category-card__title">Hombre</h3>
+          <p class="category-card__text">120+ productos</p>
+        </div>
+      </article>
+
+      <article class="category-card">
+        <img src="img/Link (4).png" alt="Categoría Casual">
+        <div class="category-card__overlay">
+          <h3 class="category-card__title">Casual</h3>
+          <p class="category-card__text">200+ productos</p>
+        </div>
+      </article>
+
+      <article class="category-card">
+        <img src="img/Link (5).png" alt="Categoría Accesorios">
+        <div class="category-card__overlay">
+          <h3 class="category-card__title">Accesorios</h3>
+          <p class="category-card__text">80+ productos</p>
+        </div>
+      </article>
+    </div>
+
+    <a href="#" class="categories__link">
+      Ver todas las categorías <span>→</span>
+    </a>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__container">
+
+    <!-- Marca -->
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <img src="img/Group 1.png" alt="StyleHub">
+      </div>
+      <p class="footer__desc">
+        Tu destino de moda favorito. Descubre las últimas tendencias en ropa y accesorios para expresar tu estilo único.
+      </p>
+
+      <div class="footer__social">
+        <span><img src="img/Link (7).png"></span>
+        <span><img src="img/Link (8).png"></span>
+        <span><img src="img/Link (9).png"></span>
+      </div>
+    </div>
+
+    <!-- Enlaces -->
+    <div class="footer__section">
+      <h3>Enlaces Rápidos</h3>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+      </ul>
+    </div>
+
+    <!-- Contacto -->
+    <div class="footer__section">
+      <h3>Contacto</h3>
+      <ul class="footer__contact">
+        <li>📍 Av. Principal 123, Ciudad, País</li>
+        <li>📞 +1 (234) 567-890</li>
+        <li>✉️ info@stylehub.com</li>
+      </ul>
+    </div>
+
+    <div class="footer__section">
+      <p>Suscríbete para recibir ofertas exclusivas y novedades.</p>
+      <form class="footer__form">
+        <input type="email" placeholder="Tu email">
+        <button type="submit">Suscribirse</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 StyleHub. Todos los derechos reservados.</p>
+    <div class="footer__links">
+      <a href="#">Política de Privacidad</a>
+      <a href="#">Términos y Condiciones</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
