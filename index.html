@@ -9,17 +9,29 @@
 <body>
     <header class="header">
   <div class="header__container">
-    
     <div class="header__brand">
       <img src="img/Link.png" alt="StyleHub">
-      </div>
-        <button class="header__menu" aria-label="Abrir menú">
-        <span></span>
-        <span></span>
-        <span></span>
-        </button>
-       </div>
-    </header>
+    </div>
+
+    <nav class="header__nav">
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Contacto</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#" aria-label="Buscar"><img src="img/Icon.png"></a>
+      <a href="#" aria-label="Usuario"><img src="img/Icon (1).png"></a>
+      <a href="#" aria-label="Bolsa"><img src="img/Icon (2).png"></a>
+    </div>
+
+    <button class="header__menu" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
     <section class="hero">
       <img src="img/Image (Elegancia Urbana) 1.png" alt="Elegancia Urbana">
       <div class="hero__content">
@@ -93,9 +105,12 @@
     </div>
     </div>
     </section>
-    <section class="categories">
+   <section class="categories">
   <div class="categories__container">
-    <h2 class="categories__title">Explora por Categoría</h2>
+    <div class="categories__top">
+      <h2 class="categories__title">Explora por Categoría</h2>
+      <a href="#" class="categories__link">Ver todas <span>→</span></a>
+    </div>
 
     <div class="categories__list">
       <article class="category-card">
@@ -130,10 +145,6 @@
         </div>
       </article>
     </div>
-
-    <a href="#" class="categories__link">
-      Ver todas las categorías <span>→</span>
-    </a>
   </div>
 </section>
 <footer class="footer">
